@@ -233,7 +233,8 @@ _mvn_doc_default_callparams = """\
 mean : array_like, optional
     Mean of the distribution (default zero)
 cov : array_like, optional
-    Covariance matrix of the distribution (default one)
+    Covariance matrix of the distribution (default one),
+    must be a symmetric positive semi-definite matrix.
 allow_singular : bool, optional
     Whether to allow a singular covariance matrix.  (Default: False)
 """
